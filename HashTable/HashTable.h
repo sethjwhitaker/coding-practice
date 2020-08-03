@@ -17,6 +17,10 @@ public:
 		tableSize = size;
 	}
 
+	~HashTable() {
+		delete[] table;
+	}
+
 	void addElement(std::string key, int value);
 	int find(std::string key);
 

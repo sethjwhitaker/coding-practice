@@ -5,12 +5,12 @@ int menu();
 bool evaluateChoice(int choice, HashTable& table);
 
 int main() {
+
 	HashTable table = HashTable(10);
 	while (true) {
 		bool repeat = evaluateChoice(menu(), table);
 		if (!repeat) break;
 	}
-
 	
 }
 
