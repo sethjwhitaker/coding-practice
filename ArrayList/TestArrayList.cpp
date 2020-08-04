@@ -4,7 +4,7 @@ int main() {
     using std::cin;
     using std::cout;
 
-    ArrayList list = ArrayList();
+    ArrayList<int> list = ArrayList<int>();
     while (true) {
         int n;
         cout << "\nEnter num: ";
